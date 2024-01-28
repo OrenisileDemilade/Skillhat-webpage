@@ -14,6 +14,22 @@
             My hobbies include playing video games and watching movies.
             I am a big fan of the TV series "Game of thrones"
         </p>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="aa0f5823-08e4-4ad0-bda6-968e4fc4581f">
+            
+            <div class="name">
+                <input type="text" name="name" placeholder="Firstname" required> <br>
+                <input type="text" name="name" placeholder="Lastname" required>
+            </div>
+            
+            <input type="email" name="email" placeholder="Email Address" required> <br>
+            <textarea name="message" placeholder="write  a text to me" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button type="submit">Submit Form</button>
+        
+        </form>
     </div>
 </body>
 </html>
