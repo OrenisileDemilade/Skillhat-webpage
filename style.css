@@ -5,16 +5,16 @@ h1{
     border-bottom: 1px solid grey;
     padding: 30px;
     padding-bottom: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 div{
     padding: 20px;
 }
 div h3{
     border-bottom: 1px solid grey;
-    margin-left:100px;
-    margin-right: 900px;
+    margin-left:10%;
+    margin-right: 65%;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -34,7 +34,7 @@ input{
     height: 30px; 
     margin: 5px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid grey;
 }
 input:hover{
    width: 300px;
