@@ -1,58 +1,59 @@
-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid grey;
-    padding: 30px;
-    padding-bottom: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-div{
-    padding: 20px;
-}
-div h3{
-    border-bottom: 1px solid grey;
-    margin-left:100px;
-    margin-right: 900px;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-form{
-    align-items: center;
-    justify-content: left;
-    margin: 10px;
-    padding: 20px;
-}
-.name{
+body{
     margin: 0;
     padding: 0;
 }
-input{
-    width: 250px;
-    height: 30px; 
-    margin: 5px;
-    border-radius: 5px;
-    border: none;
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    height: 160px;
+    position: relative;
+    color: #fff;
+    font-size: 28px;
 }
-input:hover{
-   width: 300px;
+.container{
+    justify-content: center ;
 }
-textarea{
-    margin: 5px;
-    width: 250px;
-    height: 50px;
+#bio-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 19%;
+    left: 42%;
+    background-image: url("picture/profile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-button{
-    margin-left:10px;
-    padding: 10px;
-    border-radius: 7px;
-    background-color:grey;
-    cursor: pointer;
-    border: none;
+#main-bio{
+    margin-top: 15%;    
+    top: 50%;
+    left: 46%;
 }
-button:hover{
-    background-color:black;
-    color: white;
+#contact-info h2{
+    text-align: center;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-git{
+    color: black;
+    font-size: 25px;
+}
+.icon-mail{
+    color: rgb(54, 123, 218);
+    font-size: 25px;
+}
+.icon-link{
+    color: rgb(45, 45, 216);
+    font-size: 25px;
 }
